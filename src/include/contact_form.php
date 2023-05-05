@@ -15,8 +15,8 @@ if($form->submitted())
     $form->validate('Nachricht(min[10])');
 
     // let's email the form
-    $to = 'nic.zemke@systemli.org';
-    $from = 'donotreply@domain.com';
+    $to = 'cannahaus@systemli.org';
+    $from = 'cannahaus@systemli.org';
     $subject = 'Contact Form Submission';
 
     // this processes our form, cleans the input, and sends it as an HTML email
