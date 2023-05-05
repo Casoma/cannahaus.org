@@ -1254,7 +1254,7 @@
                         
                         </p>
                         <div>
-                            <a href="#" class="button button-link">Learn More</a>
+                            <a href="https://anmeldung.cannahaus.org" class="button button-link">Jetzt anmelden</a>
                         </div>
                     </div>
 
@@ -1516,7 +1516,7 @@
                             </ul>
                         </p>
                         <div>
-                            <a href="#" class="button button-link">Learn More</a>
+                            <a href="https://github.com/cannahaus/PlantBlock" class="button button-link">Mehr erfahren</a>
                         </div>
                     </div>
 
@@ -1735,7 +1735,7 @@
                             </defs>
                         </svg>
                         <p class="services__description">
-                            Cannahaus.org entwickelt eigene open source Softwarel&ouml;sungen, die auch von anderen Clubs genutzt werden können.<br>
+                            Wir entwickeln open source Softwarel&ouml;sungen, die auch von anderen Clubs genutzt werden können.<br>
                             <ul>
                                 <li>Einfache und effektive Pflanzenverwaltung</li>
                                 <li>Zuverlässige Ausgabe von Cannabis-Produkten</li>
@@ -1745,7 +1745,7 @@
                             </ul>
                         </p>
                         <div>
-                            <a href="#" class="button button-link">Learn More</a>
+                            <a href="https://github.com/cannahaus/LeafLogic" class="button button-link" target="_blank">Mehr erfahren</a>
                         </div>
                     </div>
                 </div>
@@ -2019,7 +2019,12 @@
                     </svg>
                 </div>
             </section>
-
+            <section class="contact section container" id="contact">
+            <h3>Kontakt</h3>
+               <?php
+               include('include/contact_form.php');
+               ?>
+            </section>
             <!--=============== CONTACT US ===============-->
             <section class="contact section container" id="contact">
                     <center>

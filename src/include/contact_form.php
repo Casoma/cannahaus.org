@@ -12,10 +12,10 @@ $form->required = '*';
 if($form->submitted())
 {
     // make sure our Message field has at least 10 characters
-    $form->validate('Message(min[10])');
+    $form->validate('Nachricht(min[10])');
 
     // let's email the form
-    $to = 'me@email.com';
+    $to = 'nic.zemke@systemli.org';
     $from = 'donotreply@domain.com';
     $subject = 'Contact Form Submission';
 
