@@ -1,49 +1,6 @@
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--=============== BOXICONS ===============-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Cannahaus.org</title>
-    </head>
-    <body>
-        <!--=============== HEADER ===============-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Cannahaus.org</a>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Startseite</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">&Uuml;ber uns</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#services" class="nav__link">Leistungsumfang</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">Kontakt</a>
-                        </li>
-
-                        <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-grid-alt'></i>
-                </div>
-
-                <a href="#" class="button button__header">Jetzt registrieren!</a>
-            </nav>
-        </header>
+<?php
+include("include/header.php");
+?>
 
         <main class="main">
             <!--=============== HOME ===============-->
@@ -538,7 +495,7 @@
                     </svg>
 
                     <div class="home__data">
-                        <h1 class="home__title">Cannabis Social Club</h1>
+                        <img src="http://localhost:8080/assets/img/Cannahaus-C1_cropped.png"/>
                         <p class="home__description">Bei Cannahaus.org dreht sich alles um hochwertiges, legales Cannabis und alles drum herum. Wir sind ein geplanter Cannabis Social Club, der bald eröffnet und eine sichere und verantwortungsvolle Umgebung für den Austausch und Genuss von Cannabis bietet. <a href="/anmeldung">Gehör zu den Ersten, die dabei sind!</a></p>
                         <a href="#" class="button">Jetzt Anmelden</a>
 
@@ -2033,45 +1990,6 @@
             </section>
         </main>
 
-        <!--=============== FOOTER ===============-->
-        <footer class="footer section">
-            <div class="footer__container container grid">
-                
-
-                <div class="footer__content">
-                    <a href="#" class="footer__logo">Cannahaus.org</a>
-                    <p class="footer__description">Cannabis Social Club in Gründung</p>
-                </div>
-                <div class="footer__content">
-                    <h3 class="footer__title">Leistungsumfang</h3>
-                    <ul class="footer__links">
-                        <li><a href="#" class="footer__link">Startseite </a></li>
-                        <li><a href="#about" class="footer__link">&Uuml;ber uns</a></li>
-                        <li><a href="#services" class="footer__link">Leistungsumfang</a></li>
-                        <li><a href="#contact" class="footer__link">Kontakt</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <p class="footer__description"></p>
-                </div>
-
-                <div class="footer__social">
-                    <a href="#" class="footer__social-link"><i class='bx bxl-facebook-circle '></i></a>
-                    <a href="#" class="footer__social-link"><i class='bx bxl-twitter'></i></a>
-                    <a href="#" class="footer__social-link"><i class='bx bxl-instagram-alt'></i></a>
-                </div>
-            </div>
-
-            <p class="footer__copy">&#169; Bedimcode. All right reserved</p>
-        </footer>
-
-        <!--=============== SCROLL UP ===============-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class='bx bx-up-arrow-alt scrollup__icon'></i>
-        </a>
-
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
-</html>
+<?php
+include("include/footer.php");
+?>
