@@ -122,10 +122,14 @@ include("include/header.php");
 
             <!--=============== CONTACT ===============-->
             <section class="contact section container" id="contact">
-            <h3>Kontakt</h3>
-               <?php
-               include('include/contact_form.php');
-               ?>
+            	<h3>Kontakt</h3>
+				<p>
+					Du hast eine Frage? Hier kannst du uns kontaktieren.<br />
+					<br />
+				</p>
+			   	<?php
+					include('include/contact_form.php');
+			   	?>
             </section>
         </main>
 
