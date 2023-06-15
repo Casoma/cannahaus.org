@@ -28,7 +28,7 @@ function url(){
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">Cannahaus.org</a>
+                <a href="<?php echo url(); ?>" class="nav__logo">Cannahaus.org</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
