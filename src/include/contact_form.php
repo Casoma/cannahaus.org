@@ -17,13 +17,13 @@ if($form->submitted())
     // let's email the form
     $to = 'cannahaus@systemli.org';
     $from = 'cannahaus@systemli.org';
-    $subject = 'Contact Form Submission';
+    $subject = 'Kontaktformular Cannahaus.org';
 
     // this processes our form, cleans the input, and sends it as an HTML email
     if($form->send_email($to, $subject, 'POST', $from, 'HTML'))
     {
         // email sent; print a thank you message
-        $form->success_message('Thank you for filling out our form!');
+        $form->success_message('Vielen Dank für deine Nachricht! Wir melden uns so schnell wie möglich bei dir.');
     }
 }
 ?>

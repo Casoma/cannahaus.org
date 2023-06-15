@@ -7,7 +7,7 @@
                     <p class="footer__description">Cannabis Social Club in Gründung</p>
                 </div>
                 <div class="footer__content">
-                    <h3 class="footer__title">Leistungsumfang</h3>
+                    <h3 class="footer__title">&Uuml;bersicht</h3>
                     <ul class="footer__links">
                         <li><a href="#" class="footer__link">Startseite </a></li>
                         <li><a href="#about" class="footer__link">&Uuml;ber uns</a></li>
@@ -26,7 +26,7 @@
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; Bedimcode. All right reserved</p>
+            <p class="footer__copy">&#169; Cannahaus.org</p>
         </footer>
 
         <!--=============== SCROLL UP ===============-->

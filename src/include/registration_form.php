@@ -16,7 +16,7 @@ if($form->submitted())
     var_dump($data);
     // show a success message if no errors
     if($form->ok()) {
-        $form->success_message = "Thank you, {$data['vorname']}!";
+        $form->success_message = "Vielen Dank für dein Interesse, {$data['vorname']}!";
     }
 }
 

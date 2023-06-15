@@ -1,3 +1,14 @@
+<?php
+function url(){
+  return sprintf(
+    "%s://%s%s",
+    isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',
+    $_SERVER['SERVER_NAME'],
+    $_SERVER['REQUEST_URI']
+  );
+}
+?>
+
 <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -9,6 +20,7 @@
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/custom.css">
 
         <title>Cannahaus.org</title>
     </head>
@@ -41,6 +53,6 @@
                     <i class='bx bx-grid-alt'></i>
                 </div>
 
-                <a href="#" class="button button__header">Jetzt registrieren!</a>
+                <a href="<?php echo url(); ?>registration_form.php" class="button button__header">Jetzt registrieren!</a>
             </nav>
         </header>
