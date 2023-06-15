@@ -53,11 +53,11 @@ include("include/header.php");
                         <p class="app__description"></p>Mit der Cannahaus-App kannst du dich durch das aktuelle Cannabis Sortiment klicken und deine Bestellung zusammenstellen und aufgeben. Außerdem verwaltest du über die App deine Mitgliedschaft und wirst hier über Neuigkeiten informiert.</p>
                     </div>
 					<div class="app__buttons">
-						<a href="#" class="button button-flex">
+						<a href="<?php echo url(); ?>registration_form.php" class="button button-flex">
 							<i class='bx bxl-apple button__icon'></i> App Store (coming soon)
 						</a><br />
 						<br />
-						<a href="#" class="button button-flex">
+						<a href="<?php echo url(); ?>registration_form.php" class="button button-flex">
 							<i class='bx bxl-play-store button__icon' ></i> Google Play (coming soon)
 						</a>
 					</div>
@@ -81,7 +81,7 @@ include("include/header.php");
                         
                         </p>
                         <div>
-                            <a href="https://anmeldung.cannahaus.org" class="button button-link">Jetzt anmelden</a>
+                            <a href="<?php echo url(); ?>registration_form.php" class="button button-link">Jetzt anmelden</a>
                         </div>
                     </div>
 
