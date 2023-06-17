@@ -12,10 +12,23 @@ $form->required = '*';
 if($form->submitted())
 {
     // get our form values and assign them to a variable
-    $data = $form->validate('Vorname, Nachname, Ort, E-Mail, Handy, Geburtsdatum');
-    var_dump($data);
+    $data = $form->validate('Vorname, Nachname, Ort, mail, Handy, Geburtsdatum');
     // show a success message if no errors
     if($form->ok()) {
+
+        $filename = 'registration.csv';
+        if (file_exists($filename)) {
+            $fh = fopen($filename, 'a');
+            fwrite($fh, 'd');
+        } else {
+            echo "sfaf";
+            $fh = fopen($filename, 'wb');
+            fwrite($fh, 'd');
+        }
+        $handle = fopen($filename, "a");
+        fputcsv($handle, $data);
+        fclose($handle);
+        var_dump($data);
         $form->success_message = "Vielen Dank für dein Interesse, {$data['vorname']}!";
     }
 }
@@ -24,21 +37,28 @@ $subdomain  = explode('.', $_SERVER['HTTP_HOST'])[0];
 $city_list = ['Hamburg','Berlin','Leipzig','Aurich'];
 $search_array = array_map('strtolower', $city_list);
 $ort = '';
-if($index = in_array(strtolower($subdomain), $search_array)){
+$index = array_search(strtolower($subdomain), $search_array);
+if(in_array(strtolower($subdomain), $search_array)){
     $city = $city_list[$index];
     $ort = ",$city";
+}else{
+    die("404"); //i lohate php <3
 }
+
 ?>
     <div class="container">
         <?php
             // print messages, formatted using Bootstrap alerts
             $form->messages();
+            
             $array = [
                 'Vorname' => 'vorname,Vorname',
                 'Nachname' => 'nachname,Nachname',
                 'Ort' => "ort,Ort$ort",
                 'mail' => 'mail,E-Mail',
-                'birthdate' => 'birthdate,Geburtsdatum'
+                'handy' => 'handy,Handy',
+                'radio' => 'gramsPerMonth,Gesch&auml;tzte Abnahmemenge pro Monat:,[<5g| 5-15g|25-50g],gramsPerMonth',
+                'geburtsdatum' => 'geburtsdatum,Geburtsdatum'
             ];
             
             $form->fastform($array);

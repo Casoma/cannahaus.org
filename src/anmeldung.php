@@ -7,9 +7,9 @@ include("include/header.php");
             <section class="home section" id="home">
                 <div class="home__container container grid">
                     <div class="home__data">
-                        <img src="http://localhost:8080/assets/img/Cannahaus-C1_cropped.png"/>
+                        <img src="/assets/img/Cannahaus-C1_cropped.png"/>
                         <p class="home__description">Bei Cannahaus.org dreht sich alles um hochwertiges, legales Cannabis und alles drum herum. Wir sind ein geplanter Cannabis Social Club, der bald eröffnet und eine sichere und verantwortungsvolle Umgebung für den Austausch und Genuss von Cannabis bietet. <a href="/anmeldung">Gehör zu den Ersten, die dabei sind!</a></p>
-                        <a href="#" class="button">Jetzt Anmelden</a>
+                        <p>Mit dieser anmeldung registrierst du dich für die Einladung zur Gründungsversammlung des Cannahaus Cannabis Social Clubs. Hiermit fallen noch keine Kosten an und es besteht noch keine Vereinsmitgliedschaft. Hier&uuml;ber wird sp&auml;ter entschieden.</p>
                     </div>   
                     <div>
                         <h1>Jetzt Mitglied werden*</h1>

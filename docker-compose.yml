@@ -14,3 +14,4 @@ services:
     image: php:8-fpm
     volumes:
       - ./src:/var/www/html
+      - ./data:/var/www/data
