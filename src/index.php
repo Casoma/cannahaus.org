@@ -11,7 +11,7 @@ include("include/header.php");
 						<br />
                         <p class="home__description">Bei Cannahaus.org dreht sich alles um hochwertiges, legales Cannabis und alles drum herum. Wir sind ein geplanter Cannabis Social Club, der bald eröffnet und eine sichere und verantwortungsvolle Umgebung für den Austausch und Genuss von Cannabis bietet. Gehöre zu den ersten, die dabei sind!<br />
 						<br />
-						<a href="<?php echo url(); ?>registration_form.php" class="button">Jetzt Anmelden</a></p>
+						<a href="https://anmeldung.cannahaus.org" class="button">Jetzt Anmelden</a></p>
                     </div>
                 </div>
             </section>
@@ -26,7 +26,7 @@ include("include/header.php");
                             Cannahaus.org ist ein geplanter Cannabis Social Club aus Hamburg und Berlin. Unsere Gründer haben einen Hintergrund in Software und IT sowie langjährige Erfahrung in Vereinen und NGOs. Wir teilen eine jahrelange Begeisterung für Cannabis und setzen uns für eine offene und verantwortungsvolle Cannabis-Kultur ein.
 <br><br>
                             Unser Ziel ist es, eine sichere und vertrauenswürdige Umgebung zu schaffen, in der unsere Mitglieder Cannabis in all seinen Facetten genießen können. Wir arbeiten eng mit unseren Mitgliedern zusammen, um qualitativ hochwertige Cannabis-Produkte zu produzieren.
-<br><br>                     
+<br><br>                    
                             Wir sind eine aktive Gemeinschaft, die sich für die Legalisierung von Cannabis einsetzt und eine offene, tolerante und aufgeklärte Gesellschaft fördert. Wir heißen alle Interessierten herzlich willkommen, Teil unserer Gemeinschaft zu werden!
                         </p>
                     </div>

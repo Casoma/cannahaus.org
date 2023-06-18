@@ -29,7 +29,6 @@ function url(){
         <header class="header" id="header">
             <nav class="nav container">
                 <a href="<?php echo url(); ?>" class="nav__logo">Cannahaus.org</a>
-
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
@@ -44,15 +43,12 @@ function url(){
                         <li class="nav__item">
                             <a href="#contact" class="nav__link">Kontakt</a>
                         </li>
-
                         <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
                     </ul>
                 </div>
-
                 <div class="nav__toggle" id="nav-toggle">
                     <i class='bx bx-grid-alt'></i>
                 </div>
-
-                <a href="<?php echo url(); ?>registration_form.php" class="button button__header">Jetzt registrieren!</a>
+                <a href="https://anmeldung.cannahaus.org" class="button button__header">Jetzt registrieren!</a>
             </nav>
         </header>
