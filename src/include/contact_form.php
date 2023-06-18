@@ -18,14 +18,16 @@ if($form->submitted())
     $to = 'cannahaus@systemli.org';
     $from = 'cannahaus@systemli.org';
     $subject = 'Kontaktformular Cannahaus.org';
-
+    //$mail = $form->send_email($to, $subject, 'POST', $from, 'HTML');
     // this processes our form, cleans the input, and sends it as an HTML email
     if($form->send_email($to, $subject, 'POST', $from, 'HTML'))
     {
         // email sent; print a thank you message
         $form->success_message('Vielen Dank für deine Nachricht! Wir melden uns so schnell wie möglich bei dir.');
+    }else{
+        echo "Die Mail konnte nicht versendet werden :/"
     }
-}
+}else{
 ?>
     <div class="container">
         <?php
@@ -36,3 +38,5 @@ if($form->submitted())
             $form->create_form('Vorname, Nachname, E-Mail, Handy, Nachricht|textarea');
         ?>
     </div>
+<?php
+}?>
