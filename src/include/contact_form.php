@@ -14,7 +14,7 @@ if($form->submitted())
     // make sure our Message field has at least 10 characters
     $form->validate('Nachricht(min[10])');
 
-    // let's email the form
+    // let's email the form 
     $to = 'cannahaus@systemli.org';
     $from = 'cannahaus@systemli.org';
     $subject = 'Kontaktformular Cannahaus.org';
@@ -25,7 +25,7 @@ if($form->submitted())
         // email sent; print a thank you message
         $form->success_message('Vielen Dank für deine Nachricht! Wir melden uns so schnell wie möglich bei dir.');
     }else{
-        echo "Die Mail konnte nicht versendet werden :/"
+        echo "Die Mail konnte nicht versendet werden :/";
     }
 }else{
 ?>
