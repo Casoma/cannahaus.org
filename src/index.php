@@ -11,7 +11,7 @@ include("include/header.php");
 						<br />
                         <p class="home__description">Bei Cannahaus.org dreht sich alles um hochwertiges, legales Cannabis und alles drum herum. Wir sind ein geplanter Cannabis Social Club, der bald eröffnet und eine sichere und verantwortungsvolle Umgebung für den Austausch und Genuss von Cannabis bietet. Gehöre zu den ersten, die dabei sind!<br />
 						<br />
-						<a href="https://anmeldung.cannahaus.org" class="button">Jetzt Anmelden</a></p>
+						<a href="https://anmeldung.cannahaus.org" class="button">Jetzt anmelden!</a></p>
                     </div>
                 </div>
             </section>
@@ -53,11 +53,11 @@ include("include/header.php");
                         <p class="app__description"></p>Mit der Cannahaus-App kannst du dich durch das aktuelle Cannabis Sortiment klicken und deine Bestellung zusammenstellen und aufgeben. Außerdem verwaltest du über die App deine Mitgliedschaft und wirst hier über Neuigkeiten informiert.</p>
                     </div>
 					<div class="app__buttons">
-						<a href="<?php echo url(); ?>registration_form.php" class="button button-flex">
+						<a href="https://anmeldung.cannahaus.org" class="button button-flex">
 							<i class='bx bxl-apple button__icon'></i> App Store (coming soon)
 						</a><br />
 						<br />
-						<a href="<?php echo url(); ?>registration_form.php" class="button button-flex">
+						<a href="https://anmeldung.cannahaus.org" class="button button-flex">
 							<i class='bx bxl-play-store button__icon' ></i> Google Play (coming soon)
 						</a>
 					</div>
@@ -81,7 +81,7 @@ include("include/header.php");
                         
                         </p>
                         <div>
-                            <a href="<?php echo url(); ?>registration_form.php" class="button button-link">Jetzt anmelden</a>
+                            <a href="https://anmeldung.cannahaus.org" class="button button-link">Jetzt anmelden</a>
                         </div>
                     </div>
 
