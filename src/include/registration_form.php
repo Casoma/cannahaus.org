@@ -32,8 +32,12 @@ if($form->submitted())
         $form->success_message = "Vielen Dank für dein Interesse, {$data['vorname']}!";
     }
 }
+if(empty($query_city)){
+    $subdomain  = explode('.', $_SERVER['HTTP_HOST'])[0];
+}else{
+    $subdomain = $query_city;
+}
 
-$subdomain  = explode('.', $_SERVER['HTTP_HOST'])[0];
 $city_list = ['Hamburg','Berlin','Leipzig','Aurich'];
 $search_array = array_map('strtolower', $city_list);
 $ort = '';

@@ -1,7 +1,6 @@
 <?php
 include("include/header.php");
 ?>
-
         <main class="main">
             <!--=============== HOME ===============-->
             <section class="home section" id="home">
@@ -15,7 +14,6 @@ include("include/header.php");
                     </div>
                 </div>
             </section>
-
             <!--=============== ABOUT ===============-->
             <section class="about section container" id="about">
                 <div class="about__container grid">
