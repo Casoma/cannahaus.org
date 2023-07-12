@@ -6,7 +6,7 @@ include("include/header.php");
             <section class="home section" id="home">
                 <div class="home__container container">
                     <div class="home__data">
-                    	<img src="assets/img/Cannahaus_cropped.png"/ class="logo"><br />
+                    	<img src="/assets/img/Cannahaus_cropped.png"/ class="logo"><br />
 						<br />
                         <p class="home__description">Bei Cannahaus.org dreht sich alles um hochwertiges, legales Cannabis und alles drum herum. Wir sind ein geplanter Cannabis Social Club, der bald eröffnet und eine sichere und verantwortungsvolle Umgebung für den Austausch und Genuss von Cannabis bietet. Gehöre zu den ersten, die dabei sind!<br />
 						<br />
@@ -17,7 +17,7 @@ include("include/header.php");
             <!--=============== ABOUT ===============-->
             <section class="about section container" id="about">
                 <div class="about__container grid">
-                    <img src="assets/img/ICON_3.png"/>
+                    <img src="/assets/img/ICON_3.png"/>
                     <div class="about__data">
                         <h2 class="section__title-center">&Uuml;ber uns</h2>
                         <p class="about__description">
@@ -39,7 +39,7 @@ include("include/header.php");
                         <p class="security__description">Als Cannabis Social Club verpflichten wir uns, alle geltenden Regeln und Gesetze einzuhalten und setzen uns dafür ein, eine offene und verantwortungsvolle Cannabis-Kultur zu fördern. Wir werden uns an alle gesetzlichen Bestimmungen halten, die für den Betrieb eines Cannabis Social Clubs gelten, sobald wir die erforderlichen Genehmigungen erhalten haben.
                         </p>
                     </div>
-					<img src="assets/img/ICON_5.png"/>
+					<img src="/assets/img/ICON_5.png"/>
                 </div>
             </section>			
 
