@@ -38,7 +38,13 @@ if(empty($query_city)){
     $subdomain = $query_city;
 }
 
-$city_list = ['Hamburg','Berlin','Leipzig','Aurich'];
+if($subdomain == "localhost:8080"){
+    //if still empty its just a new registration
+    //hack around with please enter city
+    $subdomain = 'Bitte wählen';
+}
+
+$city_list = ['Hamburg','Berlin','Leipzig','Aurich','Bitte wählen'];
 $search_array = array_map('strtolower', $city_list);
 $ort = '';
 $index = array_search(strtolower($subdomain), $search_array);

@@ -11,9 +11,8 @@ require_once __DIR__.'/router.php';
 // The output -> Index
 get('/', 'views/index.php');
 
-// Dynamic GET. Example with 1 variable
-// The $id will be available in user.php
 get('/anmeldung/$query_city', 'views/anmeldung.php');
+get('/anmeldung', 'views/anmeldung.php');
 
 // A route with a callback
 /*get('/callback', function(){
