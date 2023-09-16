@@ -6,7 +6,7 @@ include("include/header.php");
             <section class="home section" id="home">
                 <div class="home__container container">
                     <div class="home__data">
-                    	<img src="/assets/img/Cannahaus_cropped.png"/ class="logo"><br />
+                    	<img src="/assets/img/cnnhs_logo_standard.svg"/ class="logo"><br />
 						<br />
                         <p class="home__description">Bei Cannahaus.org dreht sich alles um hochwertiges, legales Cannabis und alles drum herum. Wir sind ein geplanter Cannabis Social Club, der bald eröffnet und eine sichere und verantwortungsvolle Umgebung für den Austausch und Genuss von Cannabis bietet. Gehöre zu den ersten, die dabei sind!<br />
 						<br />

@@ -137,11 +137,6 @@
 }
 
 @media screen and (min-width: 1024px){
-    .container{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .home{
         &__img{
             width: 540px;
@@ -157,5 +152,12 @@
 
     .scrollup{
         right: 2rem;
+    }
+}
+
+@media screen and (min-width: 1550px){
+    .container{
+        margin-left: auto;
+        margin-right: auto;
     }
 }

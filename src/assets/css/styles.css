@@ -25,6 +25,7 @@
   font-weight: 700;
   src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2"), url("../fonts/poppins-v20-latin-700.ttf") format("truetype");
   /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */ }
+/*=============== ADD ADOBE FONTS ===============*/
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3rem;
@@ -145,7 +146,7 @@ body.dark-theme {
 
 /*=============== LAYOUT ===============*/
 .container {
-  max-width: 968px;
+  max-width: 1500px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5); }
 
@@ -495,10 +496,6 @@ body.dark-theme {
     .footer__social-link {
       font-size: 1.45rem; } }
 @media screen and (min-width: 1024px) {
-  .container {
-    margin-left: auto;
-    margin-right: auto; }
-
   .home__img {
     width: 540px; }
   .home__description {
@@ -509,5 +506,9 @@ body.dark-theme {
 
   .scrollup {
     right: 2rem; } }
+@media screen and (min-width: 1550px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto; } }
 
 /*# sourceMappingURL=styles.css.map */
