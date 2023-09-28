@@ -1,7 +1,7 @@
 /*=============== HEADER ===============*/
 .header{
     width: 100%;
-    background-color: var(--body-color);
+    background-color: var(--container-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -15,6 +15,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+	font-family: var(--accent-font);
+	text-transform: uppercase;
+	font: normal var(--font-normal-weight) normal 24px/31px var(--accent-font);
     
     &__menu{
         @media screen and (max-width: 767px){
@@ -42,7 +45,7 @@
     &__logo, 
     &__toggle{
         color: var(--title-color);
-        font-weight: var(--font-semi-bold);
+        font-weight: var(--font-normal-weight);
     }
     &__toggle{
         font-size: 1.3rem;

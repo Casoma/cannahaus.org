@@ -2,12 +2,13 @@
 .button ,
 .btn {
     display: inline-block;
-    background-color: var(--first-color);
-    color: #1A1A1A; // Use color black for yellow
-    padding: .75rem 1.5rem;
-    border-radius: 3rem; 
-    font-weight: var(--font-semi-bold);
+	font: normal normal var(--font-normal-weight) 24px/31px var(--accent-font);
+    background-color: var(--bg-accent-color);
+    color: var(--text-accent-color); // Use color black for yellow
+    padding: 1.5rem;
+    border-radius: 100px; 
     transition: .3s;
+	text-transform: uppercase;
     
     &:hover{
         background-color: var(--first-color-alt);

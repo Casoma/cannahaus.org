@@ -3,7 +3,7 @@
         <footer class="footer section">
             <div class="footer__container container grid">
                 <div class="footer__content">
-                    <a href="#" class="footer__logo">Cannahaus.org</a>
+					<a href="https://cannahaus.org" class="footer__logo"><img src="/assets/img/cnnhs_logo_small_inverted.svg"/ class="logo"></a>
                     <p class="footer__description">Cannabis Social Club in Gründung</p>
                 </div>
                 <div class="footer__content">
@@ -11,14 +11,9 @@
                     <ul class="footer__links">
                         <li><a href="#" class="footer__link">Startseite </a></li>
                         <li><a href="#about" class="footer__link">&Uuml;ber uns</a></li>
-                        <li><a href="#services" class="footer__link">Leistungsumfang</a></li>
                         <li><a href="#contact" class="footer__link">Kontakt</a></li>
                     </ul>
                 </div>
-                <div class="footer__content">
-                    <p class="footer__description"></p>
-                </div>
-
                 <div class="footer__social">
                     <a href="#" class="footer__social-link"><i class='bx bxl-facebook-circle '></i></a>
                     <a href="#" class="footer__social-link"><i class='bx bxl-twitter'></i></a>

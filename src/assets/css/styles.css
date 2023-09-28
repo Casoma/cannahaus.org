@@ -26,25 +26,26 @@
   src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2"), url("../fonts/poppins-v20-latin-700.ttf") format("truetype");
   /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */ }
 /*=============== ADD ADOBE FONTS ===============*/
+/* Good Dog New */
+@font-face {
+  font-display: swap;
+  font-family: 'Good Dog New';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/GoodDogNew.woff2") format("woff2"), url("../fonts/GoodDogNew.ttf") format("truetype");
+  /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */ }
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3rem;
+  --header-height: 5rem;
   /*========== Colors ==========*/
-  --hue: 65;
-  --sat: 83%;
-  --first-color: hsl(var(--hue), var(--sat), 46%);
-  --first-color-light: hsl(var(--hue), var(--sat), 85%);
-  --first-color-lighten: hsl(var(--hue), var(--sat), 80%);
-  --first-color-alt: hsl(var(--hue), var(--sat), 53%);
-  --title-color: hsl(var(--hue), 4%, 15%);
-  --text-color: hsl(var(--hue), 4%, 35%);
-  --text-color-light: hsl(var(--hue), 4%, 65%);
-  --body-color: hsl(var(--hue), 0%, 100%);
   --container-color: #FFF;
-  --scroll-bar-color: hsl(var(--hue), 4%, 85%);
-  --scroll-thumb-color: hsl(var(--hue), 4%, 75%);
+  --bg-color: #FFC50A;
+  --bg-accent-color: #00CCBF;
+  --text-color: #000000;
+  --text-accent-color: #FF005C;
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
+  --accent-font: 'Good Dog New', sans-serif;
   --biggest-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
@@ -52,6 +53,7 @@
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
   /*========== Font weight ==========*/
+  --font-normal-weight: 400;
   --font-semi-bold: 600;
   --font-bold: 700;
   /*========== Margenes ==========*/
@@ -90,8 +92,9 @@ body {
   transition: .5s; }
 
 h1, h2, h3 {
-  font-weight: var(--font-semi-bold);
-  color: var(--title-color);
+  font-family: var(--accent-font);
+  font-weight: var(--font-normal-weight);
+  color: var(--text-accent-color);
   line-height: 1.5; }
 
 ul {
@@ -132,17 +135,9 @@ body.dark-theme {
   padding: 4.5rem 0 1rem; }
   .section__title, .section__title-center {
     font-size: var(--h2-font-size);
-    color: var(--title-color);
+    color: var(--text-accent-color);
     text-align: center;
     margin-bottom: var(--mb-1); }
-
-.svg__color {
-  fill: var(--first-color); }
-.svg__blob {
-  fill: var(--first-color-light); }
-.svg__img {
-  width: 300px;
-  justify-self: center; }
 
 /*=============== LAYOUT ===============*/
 .container {
@@ -152,12 +147,13 @@ body.dark-theme {
 
 .grid {
   display: grid;
+  justify-items: center;
   gap: 1.5rem; }
 
 /*=============== HEADER ===============*/
 .header {
   width: 100%;
-  background-color: var(--body-color);
+  background-color: var(--container-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -169,7 +165,10 @@ body.dark-theme {
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  font-family: var(--accent-font);
+  text-transform: uppercase;
+  font: normal var(--font-normal-weight) normal 24px/31px var(--accent-font); }
   @media screen and (max-width: 767px) {
     .nav__menu {
       position: fixed;
@@ -191,7 +190,7 @@ body.dark-theme {
     row-gap: 1.5rem; }
   .nav__link, .nav__logo, .nav__toggle {
     color: var(--title-color);
-    font-weight: var(--font-semi-bold); }
+    font-weight: var(--font-normal-weight); }
   .nav__toggle {
     font-size: 1.3rem;
     cursor: pointer; }
@@ -228,18 +227,19 @@ body.dark-theme {
   margin-bottom: var(--mb-2); }
 .home .logo {
   width: 100%;
-  max-width: 600px; }
+  max-width: 400px; }
 
 /*=============== BUTTONS ===============*/
 .button,
 .btn {
   display: inline-block;
-  background-color: var(--first-color);
-  color: #1A1A1A;
-  padding: .75rem 1.5rem;
-  border-radius: 3rem;
-  font-weight: var(--font-semi-bold);
-  transition: .3s; }
+  font: normal normal var(--font-normal-weight) 24px/31px var(--accent-font);
+  background-color: var(--bg-accent-color);
+  color: var(--text-accent-color);
+  padding: 1.5rem;
+  border-radius: 100px;
+  transition: .3s;
+  text-transform: uppercase; }
   .button:hover,
   .btn:hover {
     background-color: var(--first-color-alt); }
@@ -332,7 +332,7 @@ body.dark-theme {
 
 /*=============== FOOTER ===============*/
 .footer {
-  background-color: var(--first-color-lighten);
+  background-color: var(--bg-color);
   padding-bottom: 2rem; }
   .footer__container {
     row-gap: 2rem; }
