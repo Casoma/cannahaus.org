@@ -3,6 +3,9 @@
     &__container{
         row-gap: 3rem;
     }
+    &__data{
+        text-align: center;
+    }
     &__title{
         font-size: var(--biggest-font-size);
         font-weight: var(--font-bold);

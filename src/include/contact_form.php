@@ -35,7 +35,7 @@ if($form->submitted())
             $form->messages();
 
             // create the form
-            $form->create_form('Vorname, Nachname, E-Mail, Handy, Nachricht|textarea');
+            $form->create_form('Vorname, Nachname, E-Mail, Telefon, Nachricht|textarea');
         ?>
     </div>
 <?php

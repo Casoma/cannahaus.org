@@ -18,18 +18,26 @@
         font-weight: initial;
         color: var(--text-color);
     }
-	#myFormr {
-		.form-control {
-			border-radius: 10px;
-			margin-bottom: 5px;
-			font-family: var(--body-font);
-    		font-size: var(--normal-font-size);
-		}
-		#button {
-			border-color: var(--first-color);
-			border-width: 0;
-			border-style: none;
-			font-family: Poppins, sans-serif;
+	.contact_form {
+		width: 100%;
+		#myFormr, #formr {
+			.form-control {
+				border-radius: 10px;
+				margin-bottom: 5px;
+				font-family: var(--body-font);
+				font-size: var(--normal-font-size);
+				height: 68px;
+			}
+			#nachricht {
+				height:auto;
+				min-height: 200px;
+			}
+			#button {
+				border-color: var(--first-color);
+				border-width: 0;
+				border-style: none;
+				font-family: Poppins, sans-serif;
+			}
 		}
 	}
 }

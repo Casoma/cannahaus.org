@@ -6,12 +6,13 @@
     background-color: var(--bg-accent-color);
     color: var(--text-accent-color); // Use color black for yellow
     padding: 1.5rem;
+	border: none;
     border-radius: 100px; 
     transition: .3s;
 	text-transform: uppercase;
     
     &:hover{
-        background-color: var(--first-color-alt);
+        background-color: var(--bg-color);
     }
 
     &__header{
@@ -38,4 +39,8 @@
     &__icon{
         font-size: 1.5rem;
     }
+}
+#submit {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }

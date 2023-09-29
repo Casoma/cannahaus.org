@@ -28,7 +28,6 @@
                         </li>
                             <a href="https://cannahaus.org/#contact" class="nav__link">Kontakt</a>
                         </li>
-                        <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
                     </ul>
                 </div>
                 <div class="nav__toggle" id="nav-toggle">
