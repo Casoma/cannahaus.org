@@ -13,6 +13,9 @@ get('/', 'views/index.php');
 
 get('/anmeldung/$query_city', 'views/anmeldung.php');
 get('/anmeldung', 'views/anmeldung.php');
+post('/anmeldung', 'views/anmeldung.php');
+
+post('/contact', 'include/contact_form.php');
 
 // A route with a callback
 /*get('/callback', function(){

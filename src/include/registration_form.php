@@ -7,7 +7,7 @@ $form = new Formr\Formr('bootstrap');
 
 // make all fields required
 $form->required = '*';
-
+$form->action = '/anmeldung';
 // check if the form has been submitted
 if($form->submitted())
 {
