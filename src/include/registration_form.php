@@ -16,7 +16,7 @@ if($form->submitted())
     // show a success message if no errors
     if($form->ok()) {
 
-        $filename = 'registration.csv';
+        $filename = '../../data/registration.csv';
         if (file_exists($filename)) {
             $fh = fopen($filename, 'a');
             fwrite($fh, 'd');
