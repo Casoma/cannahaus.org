@@ -37,9 +37,11 @@ function scrollActive(){
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
 			console.log(sectionId);
 			console.log(document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList);
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
+            if (document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList != null)
+				document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
         }else{
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
+            if (document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList != null)
+				document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
         }
     })
 }
