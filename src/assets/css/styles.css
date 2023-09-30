@@ -354,6 +354,8 @@ body.dark-theme {
     display: inline-block;
     font-weight: var(--font-semi-bold);
     color: var(--title-color); }
+    .footer__logo .logo {
+      min-width: 250px; }
   .footer__description, .footer__link {
     font-size: var(--small-font-size); }
   .footer__links {
@@ -501,7 +503,7 @@ body.dark-theme {
     grid-template-columns: 3fr 1.5fr 1.25fr; }
 
   .footer__container {
-    grid-template-columns: repeat(5, 1fr); }
+    grid-template-columns: repeat(3, 1fr); }
   .footer__social {
     align-items: flex-start; }
     .footer__social-link {

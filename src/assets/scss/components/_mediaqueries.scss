@@ -124,7 +124,7 @@
 
     .footer{
         &__container{
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(3, 1fr);
         }
         &__social{
             align-items: flex-start;
