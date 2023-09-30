@@ -21,13 +21,13 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Start</a>
+                            <a href="https://cannahaus.org/#home" class="nav__link active-link">Start</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">&Uuml;ber uns</a>
+                            <a href="https://cannahaus.org/#about" class="nav__link">&Uuml;ber uns</a>
                         </li>						
                         <li class="nav__item">
-                            <a href="#contact" class="nav__link">Kontakt</a>
+                            <a href="https://cannahaus.org/#contact" class="nav__link">Kontakt</a>
                         </li>
 						<i class='bx bx-toggle-left change-theme' id="theme-button" style="display:none;"></i>
                     </ul>
