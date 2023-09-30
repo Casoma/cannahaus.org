@@ -28,7 +28,7 @@ if($form->submitted())
         $handle = fopen($filename, "a");
         fputcsv($handle, $data);
         fclose($handle);
-        var_dump($data);
+        #var_dump($data);
         $form->success_message = "Vielen Dank für dein Interesse, {$data['vorname']}!";
     }
 }
