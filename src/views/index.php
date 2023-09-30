@@ -14,8 +14,8 @@ include("include/header.php");
                     </div>
                 </div>
             </section>
-            <!--=============== ABOUT ===============-->
-            <section class="about section container" id="about">
+            <!--=============== Roadmap ===============-->
+            <section class="about section container" id="roadmap">
                 <div class="about__container grid">
                     <div class="about__data">
 						
@@ -32,8 +32,8 @@ include("include/header.php");
                 </div>
             </section>
 
-            <!--=============== SECURITY ===============-->
-            <section class="security section container">
+            <!--=============== About ===============-->
+            <section class="security section container" id="about">
                 <div class="security__container grid">
 					<img src="/assets/img/chart.svg"/>
                     <div class="security__data">
