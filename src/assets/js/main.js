@@ -37,10 +37,10 @@ function scrollActive(){
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
 			console.log(sectionId);
 			console.log(document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList);
-            if (document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList != null)
+            if(document.querySelector('.nav__menu a[href*=' + sectionId + ']') != null)
 				document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
         }else{
-            if (document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList != null)
+            if(document.querySelector('.nav__menu a[href*=' + sectionId + ']') != null)
 				document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
         }
     })
@@ -92,3 +92,12 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+// Change contact form button texts
+document.addEventListener("DOMContentLoaded", () => {
+    console.log('Ready');
+  	if (document.getElementById("button") != null)
+		document.getElementById("button").innerHTML="ABSENDEN!";
+  	if (document.getElementById("submit") != null)
+		document.getElementById("submit").value="ABSENDEN!";
+});

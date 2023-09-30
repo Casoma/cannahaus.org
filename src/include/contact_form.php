@@ -29,7 +29,7 @@ if($form->submitted())
     }
 }else{
 ?>
-    <div class="container">
+    <div class="">
         <?php
             // print messages, formatted using Bootstrap alerts
             $form->messages();
