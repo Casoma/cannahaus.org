@@ -15,21 +15,23 @@ if($form->submitted())
     $data = $form->validate('Vorname, Nachname, Ort, mail, Handy, Geburtsdatum');
     // show a success message if no errors
     if($form->ok()) {
-
-        $filename = '../data/registration.csv';
+	//echo getcwd().'/../data/registration.csv';
+        $filename = getcwd().'/../data/registration.csv';
         if (file_exists($filename)) {
             $fh = fopen($filename, 'a');
             fwrite($fh, 'd');
         } else {
-            echo "sfaf";
             $fh = fopen($filename, 'wb');
             fwrite($fh, 'd');
+	    echo "created new file";
         }
+	fclose($fh);
         $handle = fopen($filename, "a");
         fputcsv($handle, $data);    
         fclose($handle);
-        #var_dump($data);
-        $form->success_message = "Vielen Dank für dein Interesse, {$data['vorname']}!";
+        //var_dump($data);
+        $form->success_message = "Vielen Dank fuer dein Interesse, {$data['vorname']}!";
+	//echo $form->success_message;
     }
 }
 if(empty($query_city)){
@@ -52,7 +54,9 @@ if(in_array(strtolower($subdomain), $search_array)){
     $city = $city_list[$index];
     $ort = ",$city";
 }else{
-    die("404"); //i lohate php <3
+    if(!$form->submitted()){
+     die("404"); //i lohate php <3
+    }
 }
 
 ?>
