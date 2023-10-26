@@ -13,7 +13,6 @@ include("include/header.php");
                         <?php
                         include("include/registration_form.php");
                         ?>
-                        <p>Mit dem Absenden erkl&auml;rst du dich bereit, dass wir von Cannahaus Hamburg e.V. deine Daten speichern d&uuml;rfen, solange es f&uuml;r den Antrag auf eine Mitgliedschaft notwendig ist. Du wirst automatisch auf unsere Warteliste gesetzt, wenn die Grenze von 100 Mitgliedern erreicht ist - und wirst dann vorrangig aufgenommen.</p>
                     </div>
                 </div>
             </section>

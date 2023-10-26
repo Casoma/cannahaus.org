@@ -16,7 +16,7 @@ if($form->submitted())
     // show a success message if no errors
     if($form->ok()) {
 
-        $filename = '../../data/registration.csv';
+        $filename = '../data/registration.csv';
         if (file_exists($filename)) {
             $fh = fopen($filename, 'a');
             fwrite($fh, 'd');
@@ -26,7 +26,7 @@ if($form->submitted())
             fwrite($fh, 'd');
         }
         $handle = fopen($filename, "a");
-        fputcsv($handle, $data);
+        fputcsv($handle, $data);    
         fclose($handle);
         #var_dump($data);
         $form->success_message = "Vielen Dank für dein Interesse, {$data['vorname']}!";
@@ -70,8 +70,13 @@ if(in_array(strtolower($subdomain), $search_array)){
                 'radio' => 'gramsPerMonth,Gesch&auml;tzte Abnahmemenge pro Monat:,[<5g| 5-15g|25-50g],gramsPerMonth',
                 'geburtsdatum' => 'geburtsdatum,Geburtsdatum'
             ];
-            
-            $form->fastform($array);
+            if(!$form->submitted()){
+
+                $form->fastform($array);
+                ?>
+                <p>Mit dem Absenden erkl&auml;rst du dich bereit, dass wir von Cannahaus Hamburg e.V. deine Daten speichern d&uuml;rfen, solange es f&uuml;r den Antrag auf eine Mitgliedschaft notwendig ist. Du wirst automatisch auf unsere Warteliste gesetzt, wenn die Grenze von 100 Mitgliedern erreicht ist - und wirst dann vorrangig aufgenommen.</p>
+                <?php
+            }
             // create the form
         ?>
     </div>
