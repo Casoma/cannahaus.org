@@ -8,7 +8,7 @@ include("include/header.php");
 					<img src="/assets/img/cnnhs_logo_standard.svg"/ class="logo">
                     <div class="home__data">
 						<h1>Cannahaus Hamburg e.V.</h1>
-                        <p>Bei uns dreht sich alles um hochwertiges, legales Cannabis und alles drum herum. Wir sind ein geplanter Cannabis Social Club, der bald eröffnet und eine sichere und verantwortungsvolle Umgebung für den Austausch und Genuss von Cannabis bietet. Gehöre zu den ersten, die dabei sind!<br />
+                        <p>Bei uns dreht sich alles um hochwertiges, legales Cannabis und alles drum herum. Wir sind ein Cannabis Social Club aus Wilhelmsburg, der eine sichere und verantwortungsvolle Umgebung für den Austausch und Genuss von Cannabis bietet. Gehöre zu den ersten, die dabei sind!<br />
 						<br />
 						<a href="https://cannahaus.org/anmeldung/hamburg" class="button">Jetzt anmelden!</a></p>
                     </div>
