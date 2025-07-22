@@ -7,16 +7,16 @@
                 </div>
                 <div class="footer__content">
                     <h2>Cannahaus.org</h2>
-                    <p class="footer__description">Cannabis Social Club in Gründung</p>
+                    <p class="footer__description">Cannabis Social Club aus Wilhelmsburg in Hamburg</p>
                 </div>
-                <div class="footer__social">
+                <div class="footer__social" style="display:none;">
                     <a href="#" class="footer__social-link"><i class='bx bxl-facebook-circle '></i></a>
                     <a href="#" class="footer__social-link"><i class='bx bxl-twitter'></i></a>
                     <a href="#" class="footer__social-link"><i class='bx bxl-instagram-alt'></i></a>
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; Cannahaus.org</p>
+            <p class="footer__copy">&#169; cannahaus.org</p>
         </footer>
 
         <!--=============== SCROLL UP ===============-->
