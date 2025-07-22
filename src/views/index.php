@@ -10,7 +10,7 @@ include("include/header.php");
 						<h1>Cannahaus Hamburg e.V.</h1>
                         <p>Bei uns dreht sich alles um hochwertiges, legales Cannabis und alles drum herum. Wir sind ein Cannabis Social Club aus Wilhelmsburg, der eine sichere und verantwortungsvolle Umgebung für den Austausch und Genuss von Cannabis bietet. Gehöre zu den ersten, die dabei sind!<br />
 						<br />
-						<a href="https://cannahaus.org/anmeldung/hamburg" class="button">Jetzt anmelden!</a></p>
+						<a href="https://app.casoma.de/apply/dea1aabd-9e16-4770-9cf9-25489182d3d2/" class="button">Jetzt anmelden!</a></p>
                     </div>
                 </div>
             </section>
