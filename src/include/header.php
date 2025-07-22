@@ -35,6 +35,6 @@
                 <div class="nav__toggle" id="nav-toggle">
                     <i class='bx bx-grid-alt'></i>
                 </div>
-                <a href="https://cannahaus.org/anmeldung/hamburg" class="button button__header">Jetzt anmelden!</a>
+                <a href="https://app.casoma.de/apply/dea1aabd-9e16-4770-9cf9-25489182d3d2/" class="button button__header">Jetzt anmelden!</a>
             </nav>
         </header>
