@@ -26,7 +26,7 @@
                         <li class="nav__item">
                             <a href="https://cannahaus.org/#about" class="nav__link">&Uuml;ber uns</a>
                         </li>						
-                        <li class="nav__item">
+                        <li class="nav__item" style="display:none;">
                             <a href="https://cannahaus.org/#contact" class="nav__link">Kontakt</a>
                         </li>
 						<i class='bx bx-toggle-left change-theme' id="theme-button" style="display:none;"></i>
