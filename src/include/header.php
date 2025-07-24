@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="/assets/css/styles.css">
         <link rel="stylesheet" href="/assets/css/custom.css">
 
-        <title>CSC aus Wilhelmsburg (Hamburg)</title>
+        <title>Cannahaus Hamburg - CSC aus Wilhelmsburg</title>
     </head>
     <body>
         <!--=============== HEADER ===============-->
