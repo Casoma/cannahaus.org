@@ -25,6 +25,9 @@
                         </li>
                         <li class="nav__item">
                             <a href="https://cannahaus.org/#about" class="nav__link">&Uuml;ber uns</a>
+                        </li>	
+                        <li class="nav__item">
+                            <a href="https://cannahaus.org/assets/Cannahaus-Hamburg-e.V.-Satzung+Gebühren.pdf" class="nav__link">Satzung und Beiträge</a>
                         </li>						
                         <li class="nav__item">
                             <a href="https://app.casoma.de/apply/dea1aabd-9e16-4770-9cf9-25489182d3d2/" class="nav__link">Mitglied werden</a>
