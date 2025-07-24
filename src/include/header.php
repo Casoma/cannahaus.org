@@ -27,10 +27,10 @@
                             <a href="https://cannahaus.org/#about" class="nav__link">&Uuml;ber uns</a>
                         </li>	
                         <li class="nav__item">
-                            <a href="https://cannahaus.org/assets/Cannahaus-Hamburg-e.V.-Satzung+Gebühren.pdf" class="nav__link">Satzung und Beiträge</a>
+                            <a href="https://cannahaus.org/assets/Cannahaus-Hamburg-e.V.-Satzung+Gebühren.pdf" class="nav__link" target="_blank">Satzung und Beiträge</a>
                         </li>						
                         <li class="nav__item">
-                            <a href="https://app.casoma.de/apply/dea1aabd-9e16-4770-9cf9-25489182d3d2/" class="nav__link">Mitglied werden</a>
+                            <a href="https://app.casoma.de/apply/dea1aabd-9e16-4770-9cf9-25489182d3d2/" class="nav__link" target="_blank">Mitglied werden</a>
                         </li>
 						<i class='bx bx-toggle-left change-theme' id="theme-button" style="display:none;"></i>
                     </ul>
@@ -38,6 +38,6 @@
                 <div class="nav__toggle" id="nav-toggle">
                     <i class='bx bx-grid-alt'></i>
                 </div>
-                <a href="https://app.casoma.de/apply/dea1aabd-9e16-4770-9cf9-25489182d3d2/" class="button button__header">Jetzt anmelden!</a>
+                <a href="https://app.casoma.de/apply/dea1aabd-9e16-4770-9cf9-25489182d3d2/" class="button button__header" target="_blank">Jetzt anmelden!</a>
             </nav>
         </header>
