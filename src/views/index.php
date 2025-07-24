@@ -10,7 +10,7 @@ include("include/header.php");
 						<h1>Cannahaus Hamburg e.V.</h1>
                         <p>Bei uns dreht sich alles um hochwertiges, legales Cannabis und alles drum herum. Wir sind ein Cannabis Social Club aus Wilhelmsburg, der eine sichere und verantwortungsvolle Umgebung für den Austausch und Genuss von Cannabis bietet. Gehöre zu den ersten, die dabei sind!<br />
 						<br />
-						<a href="https://app.casoma.de/apply/dea1aabd-9e16-4770-9cf9-25489182d3d2/" class="button">Jetzt anmelden!</a></p>
+						<a href="https://app.casoma.de/apply/dea1aabd-9e16-4770-9cf9-25489182d3d2/" class="button" target="_blank">Jetzt anmelden!</a></p>
                     </div>
                 </div>
             </section>
@@ -20,10 +20,10 @@ include("include/header.php");
                     <div class="about__data">
 						
                         <h2 class="section__title-center">Unsere Roadmap im &Uuml;berblick:</h2>
-						<p><strong>1. Lizenz zum Anbau:</strong> Wir befinden uns derzeit im Antragsprozess für die Lizenz zum Anbau von Cannabis. Parallel bauen wir unseren bereits vorhandenen Standort in Wilhelmsburg aus, damit es direkt losgehen kann, wenn alle rechtlichen Aspekte gekl&auml;rt sind.</p>
-						<p><strong>2. Start mit 100 Mitgliedern:</strong> Wir beginnen mit einer exklusiven Gruppe von 100 Mitgliedern. Sollte die Nachfrage gr&ouml;&szlig;er sein, setzen wir eine Warteliste ein. Nach und nach &ouml;ffnen wir den Verein dann f&uuml;r insgesamt 500 Mitglieder. <b>Noch sind Plätze frei: Also herein in den Verein - und seid dabei, wenn Cannahaus Hamburg e.V. seine Ausgabe &ouml;ffnet!</b> So k&ouml;nnen wir gemeinsam in eine bl&uuml;hende Zukunft starten.</p>
-						<p><strong>3. Finanzierung und Mitgliedsbeitrag:</strong> Bis die erste Ernte fertig wird, erheben wir einen monatlichen Mitgliedsbeitrag von 10€ und beim Eintritt eine Aufnahmegeb&uuml;hr von 100€. Dies ist m&ouml;glich, weil wir uns derzeit prim&auml;r durch ein Darlehen finanzieren. Der Gesamtbetrag wird von dir per Lastschrift auf unser Vereinskonto eingezogen.</p>
-						<p><strong>4. Anbau und Vielfalt:</strong> Sobald die Lizenz da ist, konzentrieren wir uns darauf, so schnell wie m&ouml;glich in die Produktion einzusteigen. Wir setzen auf Autoflowering-Pflanzen und den Kauf von angezogenen Stecklingen, um den Zeitraum bis zur ersten Ernte zu verk&uuml;rzen. Parallel entwickeln wir eine autonome Produktion mit einer nach und nach größer werdenden Auswahl an verschiedenen Sorten.</p>
+						<p><strong>1. Lizenz zum Anbau:</strong> Wir befinden uns derzeit im Antragsprozess für die Lizenz zum Anbau von Cannabis. Parallel bauen wir unseren bereits vorhandenen Standort in Wilhelmsburg aus, damit es direkt losgehen kann, wenn alle rechtlichen Aspekte gekl&auml;rt sind.<br /></p>
+						<p><strong>2. Start mit 100 Mitgliedern:</strong> Wir beginnen mit einer exklusiven Gruppe von 100 Mitgliedern. Sollte die Nachfrage gr&ouml;&szlig;er sein, setzen wir eine Warteliste ein. Nach und nach &ouml;ffnen wir den Verein dann f&uuml;r insgesamt 500 Mitglieder. <b>Noch sind Plätze frei: Also herein in den Verein - und seid dabei, wenn Cannahaus Hamburg e.V. seine Ausgabe &ouml;ffnet!</b> So k&ouml;nnen wir gemeinsam in eine bl&uuml;hende Zukunft starten.<br /></p>
+						<p><strong>3. Finanzierung und Mitgliedsbeitrag:</strong> Bis die erste Ernte fertig wird, erheben wir einen monatlichen Mitgliedsbeitrag von 10€ und beim Eintritt eine Aufnahmegeb&uuml;hr von 100€. Dies ist m&ouml;glich, weil wir uns derzeit prim&auml;r durch ein Darlehen finanzieren. Der Gesamtbetrag wird von dir per Lastschrift auf unser Vereinskonto eingezogen.<br /></p>
+						<p><strong>4. Anbau und Vielfalt:</strong> Sobald die Lizenz da ist, konzentrieren wir uns darauf, so schnell wie m&ouml;glich in die Produktion einzusteigen. Wir setzen auf Autoflowering-Pflanzen und den Kauf von angezogenen Stecklingen, um den Zeitraum bis zur ersten Ernte zu verk&uuml;rzen. Parallel entwickeln wir eine autonome Produktion mit einer nach und nach größer werdenden Auswahl an verschiedenen Sorten.<br /></p>
                     </div>
                     <img src="/assets/img/img_garten.svg"/>
                 </div>
