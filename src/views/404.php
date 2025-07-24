@@ -3,3 +3,6 @@
 // http://localhost/test/route
 
 echo 'PAGE NOT FOUND';
+echo 'Redirecting...';
+header("Location: https://cannahaus.org");
+exit;
