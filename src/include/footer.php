@@ -6,8 +6,15 @@
 					<a href="https://cannahaus.org" class="footer__logo"><img src="/assets/img/cnnhs_logo_small_inverted.svg"/ class="logo"></a>
                 </div>
                 <div class="footer__content">
-                    <h2>Cannahaus.org</h2>
-                    <p class="footer__description">Cannabis Social Club aus Wilhelmsburg in Hamburg</p>
+                    <h2>Impressum</h2>
+                    <p class="footer__description">
+			    Cannahaus Hamburg e.V.<br />
+			    21107 Hamburg<br />
+			    <br />
+			    Kontakt:<br />
+			    cannahaus(at-Zeichen)systemli.org<br />
+			    
+		    </p>
                 </div>
                 <div class="footer__social" style="display:none;">
                     <a href="#" class="footer__social-link"><i class='bx bxl-facebook-circle '></i></a>
