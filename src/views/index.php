@@ -20,10 +20,14 @@ include("include/header.php");
                     <div class="about__data">
 						
                         <h2 class="section__title-center">Unsere Roadmap im &Uuml;berblick:</h2>
+						<p> </p>
 						<p><strong>1. Lizenz zum Anbau:</strong> Wir befinden uns derzeit im Antragsprozess für die Lizenz zum Anbau von Cannabis. Parallel bauen wir unseren bereits vorhandenen Standort in Wilhelmsburg aus, damit es direkt losgehen kann, wenn alle rechtlichen Aspekte gekl&auml;rt sind.<br /></p>
+						<p> </p>
 						<p><strong>2. Start mit 100 Mitgliedern:</strong> Wir beginnen mit einer exklusiven Gruppe von 100 Mitgliedern. Sollte die Nachfrage gr&ouml;&szlig;er sein, setzen wir eine Warteliste ein. Nach und nach &ouml;ffnen wir den Verein dann f&uuml;r insgesamt 500 Mitglieder. <b>Noch sind Plätze frei: Also herein in den Verein - und seid dabei, wenn Cannahaus Hamburg e.V. seine Ausgabe &ouml;ffnet!</b> So k&ouml;nnen wir gemeinsam in eine bl&uuml;hende Zukunft starten.<br /></p>
+						<p> </p>
 						<p><strong>3. Finanzierung und Mitgliedsbeitrag:</strong> Bis die erste Ernte fertig wird, erheben wir einen monatlichen Mitgliedsbeitrag von 10€ und beim Eintritt eine Aufnahmegeb&uuml;hr von 100€. Dies ist m&ouml;glich, weil wir uns derzeit prim&auml;r durch ein Darlehen finanzieren. Der Gesamtbetrag wird von dir per Lastschrift auf unser Vereinskonto eingezogen.<br /></p>
-						<p><strong>4. Anbau und Vielfalt:</strong> Sobald die Lizenz da ist, konzentrieren wir uns darauf, so schnell wie m&ouml;glich in die Produktion einzusteigen. Wir setzen auf Autoflowering-Pflanzen und den Kauf von angezogenen Stecklingen, um den Zeitraum bis zur ersten Ernte zu verk&uuml;rzen. Parallel entwickeln wir eine autonome Produktion mit einer nach und nach größer werdenden Auswahl an verschiedenen Sorten.<br /></p>
+						<p> </p>
+						<p><strong>4. Anbau und Vielfalt:</strong> Sobald die Lizenz da ist, konzentrieren wir uns darauf, so schnell wie m&ouml;glich in die Produktion einzusteigen. Wir beginnen mit der Anzucht von feminisierten Saatgut, um anschließend Mutterpflanzen zu selektieren. Damit entwickeln wir eine autonome Produktion mit einer nach und nach größer werdenden Auswahl an verschiedenen Sorten.<br /></p>
                     </div>
                     <img src="/assets/img/img_garten.svg"/>
                 </div>
@@ -69,3 +73,4 @@ include("include/header.php");
 <?php
 include("include/footer.php");
 ?>
+
